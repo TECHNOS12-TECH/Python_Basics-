@@ -1,0 +1,11 @@
+# To check inequality or equality among two numbers
+a=float(input("Enter the value of a:"))
+b=float(input("Enter the value of b:"))
+c=b-a
+d=a-b
+if a>b:
+    print("a>b by the factor of",d)
+if a<b:
+    print("a<b by the factor of",c)
+if a==b:
+    print("a=b,both the numbers are equal")
