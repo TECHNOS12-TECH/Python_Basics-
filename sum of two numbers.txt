@@ -1,0 +1,7 @@
+#This is a program which is used to add two numbers
+#let the resultant of two numbers be x and the number to be a and b
+#This program also works for decimal values
+a=float(input("Enter the first Number:"))
+b=float(input("Enter the Second Number:"))
+c=a+b
+print("The ADITTION of numbers are:",c)
