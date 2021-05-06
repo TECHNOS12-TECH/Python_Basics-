@@ -1,0 +1,7 @@
+#This is a program which is can be used to obtain remainder of number
+#Let the divisor be z and and dividend be x and remainder be r
+x=float(input("Enter the value of dividend:"))
+z=float(input("Enter the value of divisor:"))
+#float can be replaced by other data types
+r=x%z
+print("The required remainder is:",r)
