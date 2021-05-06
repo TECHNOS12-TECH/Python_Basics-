@@ -1,0 +1,25 @@
+#In this programme we will learn how to Obtain roots of quadratic equation.
+#General from of quadratic eqaution is ax^2+bx+C=0
+#using these value we can obtain roots using quardatic formula
+#first we will find discriminant of quadratic equation
+print("Quadratic function : (a * x^2) + b*x + c")
+import math
+a = float(input("a: "))
+b = float(input("b: "))
+c = float(input("c: "))
+
+d = b**2 - 4*a*c
+
+if d > 0:
+    num_roots = 2
+    x1 = (((-b) + math.sqrt(d))/(2*a))     
+    x2 = (((-b) - math.sqrt(d))/(2*a))
+    print("There are 2 roots: %f and %f" % (x1, x2))
+elif d == 0:
+    num_roots = 1
+    x = (-b) / 2*a
+    print("There is one root: ", x)
+else:
+    num_roots = 0
+    print("No roots, discriminant < 0.")
+    exit()
