@@ -1,0 +1,15 @@
+#comparison operators gives you answer in Bollean data type means yes or no
+a=float(input("ENTER THE VALUE OF a:"))
+b=float(input("ENTER THE VALUE OF b:"))
+c=a>b
+print("THE STATEMENT a>b is:",c)
+d=a<b
+print("THE STATEMENT a<b is:",d)
+e=a>=b
+print("THE STATEMENT a is grater than or equal to b is:",e)
+f=a<=b
+print("THE STATEMENT a is less than or equal to b is:",f)
+g=a==b
+print("THE STATEMENT a is equal to b is:",g)
+h=a!=b
+print("THE STATEMENT a is not equal to b is:",h)
