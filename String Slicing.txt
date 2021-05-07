@@ -1,0 +1,5 @@
+name=input("Enter your name:")
+print(name[2])
+#The index in python starts from 0 to .....
+print(name[0:3])
+#note in this case it excludes 3
