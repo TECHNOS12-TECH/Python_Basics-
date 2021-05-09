@@ -1,0 +1,4 @@
+Sentence="This is jayesh.Currently in class 11th.Learning python from youtube.Thanks"
+Formatted_Sentece="This is jayesh.\n\tCurrently in class 11th.\n\t\tLearning python from youtube.\n\tThanks"
+print("The old sentence is:",Sentence)
+print("The Formatted sentence is:",Formatted_Sentece)
