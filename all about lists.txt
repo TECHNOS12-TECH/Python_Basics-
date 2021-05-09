@@ -1,0 +1,9 @@
+#list slicing
+Fruits=["Apple","Banana","Grapes","Avacado","pears","berry"]
+print(Fruits)
+print("The fruit with second index is:",(Fruits[2]))
+print("Fruits from index 0 to 4 are:",(Fruits[0:5]))
+#5 is not inclued so you must write 0:5 to get fruits from 0 to 4
+#if we want to change a particular element from the list we can follow following syntax
+Fruits[3]="Watermelon" 
+print(Fruits)
