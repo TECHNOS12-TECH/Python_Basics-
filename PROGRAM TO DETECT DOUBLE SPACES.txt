@@ -1,0 +1,4 @@
+#IF THERE IS DOUBLE SPACE IN THE PROGRAM IT PRINTS ITS INDEX. OTHERWISE IF THERE IS NO DOUBLE SPACE IT PRRINTS -1
+string="I am jayesh jain talking  to python  3"
+Double_spaces=string.find("  ")
+print(Double_spaces)
