@@ -1,0 +1,4 @@
+#Replacing double spaces by single space
+string="I am jayesh jain talking  to python 3"
+string=string.replace("  "," ")
+print(string)
