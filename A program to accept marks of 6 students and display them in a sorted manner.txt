@@ -1,0 +1,14 @@
+# A program to accept marks of 6 students and display them in a sorted manner
+
+M1=float(input("Enter the marks of student 1:"))
+M2=float(input("Enter the marks of student 2:"))
+M3=float(input("Enter the marks of student 3:"))
+M4=float(input("Enter the marks of student 4:"))
+M5=float(input("Enter the marks of student 5:"))
+M6=float(input("Enter the marks of student 6:"))
+
+List_marks=[M1,M2,M3,M4,M5,M6]
+print("The list of marks of students are as follows:",List_marks)
+
+List_marks.sort()
+print("The sorted list of marks of student are as follows:",List_marks)
