@@ -1,0 +1,10 @@
+#To store inputs and print it as list
+#In this we have taken example of fruits
+Fruit1=input("Enter the name of first Fruit:")
+Fruit2=input("Enter the name of Second Fruit:")
+Fruit3=input("Enter the name of Third Fruit:")
+Fruit4=input("Enter the name of fourth Fruit:")
+Fruit5=input("Enter the name of fifth Fruit:")
+Fruit6=input("Enter the name of sixth Fruit:")
+Fruit7=input("Enter the name of seventh Fruit:")
+print("The required the list of fruits are as follows:\n",[Fruit1,Fruit2,Fruit3,Fruit4,Fruit5,Fruit6,Fruit7])
