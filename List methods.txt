@@ -1,0 +1,14 @@
+#List Methods
+List=[1,6,2.3,455,3.62]
+List.sort()
+print("Your sorted list is:",List)
+List.reverse()
+print("The reversed list is:",List)
+List.append(8541) #Using this fuction we can add an element in the list
+print("The appended list is:",List)
+List.insert(3,9) #Using this function we can add something at a particular index
+print(List)
+List.pop(4) #The element which is at index 4 is removed
+print(List)
+List.remove(8541) #This will directly remove the element which is written in bracket()
+print(List)
