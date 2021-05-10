@@ -1,0 +1,9 @@
+# To print the sum of numbers in a list
+
+List=[2,95,110,55,441,1521]
+
+#This is very long way to print the sum 
+print("The sum of numbers in a list are as follows:",List[0]+List[1]+List[2]+List[3]+List[4]+List[5])
+
+#This one is a shoter way to print sum as compare to above one
+print("The sum of numbers in a list are as follows:",sum(List))
