@@ -1,0 +1,7 @@
+# To count the number of element in a given tuple
+
+Tuple=(0,12,0,53,0,4,78,41,0,63)
+
+#Suppose we have to count the number of zeros in a given tuple
+
+print("The number of zeore's in a given tuple are as follows:",Tuple.count(0))
