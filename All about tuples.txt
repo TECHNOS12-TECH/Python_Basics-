@@ -1,0 +1,15 @@
+#All about tuples
+
+#Tuples are immutable we cannot change the inside values of tuples
+T=( 1, 2, 3,9)
+print("The Required tuble is:",T)
+
+#The empty tuple can be denotated as with ()
+Empty_tuple=()
+print("Your empty tuple is:",Empty_tuple)
+
+#t=(2) This is a wrong way write a single element in a tuple
+
+#Tuple with single element can be written as (element,)
+t=(2,) #This is just a example 
+print("The tuple with single element is:",t)
