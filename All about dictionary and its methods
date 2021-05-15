@@ -1,0 +1,28 @@
+# All about dictionary and its methods
+
+Dictionary={ "Apple":"A red fruit",
+             "Banana":"A greenish colour fruit",
+             "Watermelon":"A green colour fruit",
+             "AnotherDictionary":{"Marks":"[22,56]"}}
+
+#print("The Dictinay of user is:",Dictionary)
+
+#print("The another dictionay in user dictionary is:",Dictionary["AnotherDictionary"])
+
+# Dictionary methods are as follows
+
+# First method 
+print("The keys of dictioary are:",list(Dictionary.keys())) # It prints the keys of dictionary, a user may print this in form of list
+
+#Second method
+print("The values of dictionary are:",(Dictionary.values())) # It prints the values of Dictionary, a user may print this in form of list
+print("The values of dictionary are:",list(Dictionary.values())) # It prints the values of Dictionary, a user may print this in form of list
+
+#Third method
+print(Dictionary.items()) # It prints both keys and values of dictionary
+
+#Fourth method
+update={ "School":"BSV"}
+Dictionary.update(update)
+
+print(Dictionary) #This function update the list and add the required key and its value
