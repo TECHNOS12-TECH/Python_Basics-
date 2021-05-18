@@ -1,0 +1,19 @@
+# To take 4 numbers from user and print the greatest number
+# Let the four numbers be a,b,c,d and the first greatest between a and d be e, and the second greatest between b and c be f, the final decision is to be made by e and f
+
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+c=int(input("Enter the value of c:"))
+d=int(input("Enter the value of d:"))
+if(a>d):
+    e=a
+else:
+    e=d
+if(b>c):
+    f=b
+else:
+    f=c
+if(e>f):
+    print(str(e)+ " is greatest")
+else:
+    print(str(f)+ " is greatest")
