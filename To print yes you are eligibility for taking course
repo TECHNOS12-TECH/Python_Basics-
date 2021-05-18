@@ -1,0 +1,11 @@
+# To print yes you are eligibility for taking course,
+# if a person wants to take course and for taking that couse the age must be greater than or equal to 18 and less than 30
+
+age=int(input("Enter your age:"))
+
+if age>=18 and age<30:
+    print("You are elgible for course")
+
+else:
+    print("You are not eligible for course")
+    
