@@ -1,0 +1,15 @@
+# write a program to print the grade of a student
+
+m=int(input("Enter the marks of student:"))
+if m>=90:
+    print("The student grade is Ex,\n Well done")
+elif m>=80:
+    print("The student grade is 'A'")
+elif m>=70:
+    print("The student grade is 'B'")
+elif m>=60:
+    print("The student grade is 'c'")
+elif m>=50:
+    print("The student grade is 'd'")
+else:
+    print(" You are failed in this exam")
