@@ -1,0 +1,19 @@
+# Write a program to find out whether a student is pass or fail, if it requires total 40% and at at least 33% in each subject to pass. Assume 3 subject and take marks as an input from the user
+# Let the 3 subject be physics, chemistry, maths
+
+phy=float(input("Enter the marks of Physics:\n"))
+chem=float(input("Enter the marks of Chemistry:\n"))
+maths=float(input("Enter the marks of Maths:\n"))
+
+p_percent=(phy/100)*100
+c_percent=(chem/100)*100
+m_percent=(maths/100)*100
+
+avg=p_percent+c_percent+m_percent
+
+if p_percent<33 or c_percent<33 or m_percent<33:
+    print("sorry, as you have failed, you can't be promoted to next class")
+elif avg>=40:
+    print("Conratulations, you have passed in all 3 subjects and promoted to next class")
+
+          
