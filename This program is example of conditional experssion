@@ -1,0 +1,12 @@
+# This program is example of conditional experssion
+#For example if we have to print the whether the number is odd or even, and the number is to be taken from user
+
+print(" NOTE: if the number is exactly divisible by 2 then it is even because all even numbers are exactly divsible by 2 leaves the remainder as 0, if not the number is odd")
+
+a=float(input("Enter the value of a:"))
+
+if a%2==0:
+    print(a,"\n This number is even as we are getting the remainder as 0")
+
+elif a%2!=0:
+    print(a,"\n This number is odd as we are getting the reaminder is not equal to 0")
