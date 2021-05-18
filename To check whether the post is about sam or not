@@ -1,0 +1,6 @@
+# To check whether the post is about sam or not 
+post=str(input("Enter post\n"))
+if "sam" in post:
+    print("yes the post is about sam")
+else:
+    print("The post is not about sam")
