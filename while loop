@@ -1,0 +1,6 @@
+# While loop
+
+i=0
+while i<10:
+    print(" Hi Jayesh "+ str(i))
+    i=i+1
