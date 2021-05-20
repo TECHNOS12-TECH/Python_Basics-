@@ -1,0 +1,15 @@
+# Continue and break statements using for loop
+
+#Break statement
+
+for i in range(20):
+    print(i)
+    if i==15:
+        break
+
+#continue statement
+for i in range(10):
+    if i==4:
+        continue
+    print(i);
+
